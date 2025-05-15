@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tecnologia Educativa</title>
+  <link rel="stylesheet" href="proyect-2.css" />
+  <style type="text/css">
+<!--
+.Estilo1 {
+	color: black;
+	font-weight: bold;
+}
+.Estilo2 {color: black}
+.Estilo3 {color: purple}
+.Estilo4 {color: black; font-weight: bold; font-size: 18px; }
+-->
+  </style>
+</head>
+<body>
+
+  <!-- Control de secciones -->
+  <input type="radio" name="menu" id="inicio" checked />
+  <input type="radio" name="menu" id="quees" />
+  <input type="radio" name="menu" id="ventajas" />
+  <input type="radio" name="menu" id="ejemplos" />
+  <input type="radio" name="menu" id="contacto" />
+
+  <header>
+    <h1 align="left"><img src="Tecnología JN.png" alt="Descripción del logo" width="100" height="50" align="top"> <span class="Estilo1">Tecnología Educativa</span></h1>
+    <nav>
+      <label for="inicio" class="Estilo4">Inicio</label>
+      <label for="quees" class="Estilo4">¿Qué es?</label>
+      <label for="ventajas" class="Estilo4">Ventajas</label>
+      <label for="ejemplos" class="Estilo4">Ejemplos</label>
+      <label for="contacto" class="Estilo4">Contacto</label>
+    </nav>
+</header>
+
+  <main class="contenido">
+    <section id="sec-inicio" class="seccion">
+  <div class="wrapper">
+  <div class="slider" id="slider">
+    <ul class="slides">
+      <li class="slide" id="slide1">
+        <a href="#">
+          <p class="caption">Educacion digital</p>
+          <img src="b.jpg" alt="photo 1">        </a>
+      </li>
+      <li class="slide" id="slide2">
+        <a href="#">
+          <p class="caption">clases virtuales</p>
+          <img src="q.jpg" alt="photo 2">
+        </a>
+      </li>
+      <li class="slide" id="slide3">
+        <a href="#">
+          <p class="caption">Tecnologia en el aula</p>
+          <img src="r.jpg" alt="photo 3">
+        </a>
+		<li class="slide" id="slide3">
+        <a href="#">
+          <p class="caption">Visualizacion 3D</p>
+          <img src="n.jpg" alt="photo 3">
+       </a>
+      </li>
+      
+    <ul class="slider-controler">
+      <li><a href="#slide1">&bullet;</a></li>
+      <li><a href="#slide2">&bullet;</a></li>
+      <li><a href="#slide3">&bullet;</a></li>
+ </ul>
+  </ul>
+  </div>
+</div>
+ </section>
+
+    <section id="sec-quees" class="seccion">
+      <h2> ¿Que es la Tecnologia Educativa?</h2>
+      <p>La tecnología educativa, tambien conocida como EdTech, es el uso de herramientas y recursos tecnológicos para mejorar el proceso de enseñanza y aprendizaje, adaptandolo a la era digital. Va mas alla de simplemente usar dispositivos tecnológicos en el aula y abarca la aplicacion de plataformas interactivas, aplicaciones educativas y métodos pedagágicos que integran la tecnologia. </p>
+	 <img width="200" height="200" align="center" src="m.jpg">
+	 <p>El objetivo principal de la tecnología educativa no es solo modernizar el aula, sino transformar el proceso educativo para que sea más dinámico y participativo. Las plataformas de aprendizaje, por ejemplo, permiten a los docentes seguir el progreso de cada estudiante y adaptar los contenidos según sus necesidades. Este enfoque ayuda a cerrar brechas educativas y proporciona a los alumnos las herramientas necesarias para desarrollar habilidades digitales esenciales para el mundo laboral actual. Herramientas que hace unos años eran impensables. </p>
+    </section>
+
+    <section id="sec-ventajas" class="seccion">
+      <h2>Ventajas</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="u.jpg" alt="Acceso global" />
+          <h3>Acceso Global</h3>
+          <p>Permite estudiar desde cualquier lugar.</p>
+        </div>
+        <div class="card">
+          <img src="v.jpg" alt="Personalizaciòn" />
+          <h3>Aprendizaje Personalizado</h3>
+          <p>Adaptado al ritmo de cada estudiante.</p>
+        </div>
+		<div class="card">
+   
+   <img src="p.jpg" alt="Colaboración" />
+  
+    <h3>Fomenta la colaboración</h3>
+  
+    <p>Facilita el trabajo en equipo mediante plataformas interactivas.</p>
+      </div>
+      </div>
+    </section>
+
+    <section id="sec-ejemplos" class="seccion">
+      <h2>Ejemplos</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="t.jpg" alt="Kahoot" />
+          <h3>Kahoot!</h3>
+          <p>Juegos educativos interactivos.</p>
+        </div>
+		
+        <div class="card">
+          <iframe width="100%" height="200" src="e.mp4" title="Tecnologìa Educativa" frameborder="0" allowfullscreen></iframe>
+        <p>TECNOLOGÌA EDUCATIVA.</p>
+</div>
+      </div>
+    </section>
+
+    <section id="sec-contacto" class="seccion">
+      <h2>Contacto</h2>
+      <form>
+        <label>Nombre:</label>
+        <input type="text" required />
+        <label>Email:</label>
+        <input type="email" required />
+        <label>Mensaje:</label>
+        <textarea required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+	   <img width="200" height="200" align="center" src="a.jpg" >
+    </section>
+  </main>
+
+  <footer>
+    <h3 class="Estilo2">Síguenos</h3>
+    <span class="Estilo3"><a href='https://facebook.com/tusitio' target='_blank'>Facebook</a>
+    <a href='https://twitter.com/tusitio' target='_blank'>Twitter</a></span>
+    <p class="Estilo2">&copy; 2025 Tecnologia Educativa</p>
+  </footer>
+
+</body>
+</html>
+
+ 
